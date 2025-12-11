@@ -3,3 +3,4 @@ requests
 six
 python-dateutil==2.2
 -r ./dev_requirements.txt
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
